@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Funky Unit Converter.xcodeproj">
+      location = "self:Prijevoz.xcodeproj">
    </FileRef>
 </Workspace>

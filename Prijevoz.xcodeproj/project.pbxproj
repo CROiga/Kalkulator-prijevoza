@@ -34,23 +34,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7CC046F3197D582100872EC4 /* Funky Unit Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Funky Unit Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC046F3197D582100872EC4 /* Prijevoz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prijevoz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC046F6197D582100872EC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7CC046F8197D582100872EC4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7CC046FA197D582100872EC4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		7CC046FE197D582100872EC4 /* Funky Unit Converter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Funky Unit Converter-Info.plist"; sourceTree = "<group>"; };
+		7CC046FE197D582100872EC4 /* Prijevoz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Prijevoz-Info.plist"; sourceTree = "<group>"; };
 		7CC04700197D582100872EC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7CC04702197D582100872EC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7CC04704197D582100872EC4 /* Funky Unit Converter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Funky Unit Converter-Prefix.pch"; sourceTree = "<group>"; };
+		7CC04704197D582100872EC4 /* Prijevoz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Prijevoz-Prefix.pch"; sourceTree = "<group>"; };
 		7CC04705197D582100872EC4 /* ADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADAppDelegate.h; sourceTree = "<group>"; };
 		7CC04706197D582100872EC4 /* ADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADAppDelegate.m; sourceTree = "<group>"; };
 		7CC04709197D582100872EC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7CC0470B197D582100872EC4 /* ADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADViewController.h; sourceTree = "<group>"; };
 		7CC0470C197D582100872EC4 /* ADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADViewController.m; sourceTree = "<group>"; };
 		7CC0470E197D582100872EC4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7CC04714197D582100872EC4 /* Funky Unit ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Funky Unit ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC04714197D582100872EC4 /* PrijevozTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrijevozTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC04715197D582100872EC4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		7CC0471D197D582100872EC4 /* Funky Unit ConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Funky Unit ConverterTests-Info.plist"; sourceTree = "<group>"; };
+		7CC0471D197D582100872EC4 /* PrijevozTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrijevozTests-Info.plist"; sourceTree = "<group>"; };
 		7CC0471F197D582100872EC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7CC04721197D582100872EC4 /* Funky_Unit_ConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Funky_Unit_ConverterTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,8 +92,8 @@
 		7CC046F4197D582100872EC4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7CC046F3197D582100872EC4 /* Funky Unit Converter.app */,
-				7CC04714197D582100872EC4 /* Funky Unit ConverterTests.xctest */,
+				7CC046F3197D582100872EC4 /* Prijevoz.app */,
+				7CC04714197D582100872EC4 /* PrijevozTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,10 +126,10 @@
 		7CC046FD197D582100872EC4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7CC046FE197D582100872EC4 /* Funky Unit Converter-Info.plist */,
+				7CC046FE197D582100872EC4 /* Prijevoz-Info.plist */,
 				7CC046FF197D582100872EC4 /* InfoPlist.strings */,
 				7CC04702197D582100872EC4 /* main.m */,
-				7CC04704197D582100872EC4 /* Funky Unit Converter-Prefix.pch */,
+				7CC04704197D582100872EC4 /* Prijevoz-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,7 +146,7 @@
 		7CC0471C197D582100872EC4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7CC0471D197D582100872EC4 /* Funky Unit ConverterTests-Info.plist */,
+				7CC0471D197D582100872EC4 /* PrijevozTests-Info.plist */,
 				7CC0471E197D582100872EC4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +155,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7CC046F2197D582100872EC4 /* Funky Unit Converter */ = {
+		7CC046F2197D582100872EC4 /* Prijevoz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7CC04725197D582100872EC4 /* Build configuration list for PBXNativeTarget "Funky Unit Converter" */;
+			buildConfigurationList = 7CC04725197D582100872EC4 /* Build configuration list for PBXNativeTarget "Prijevoz" */;
 			buildPhases = (
 				7CC046EF197D582100872EC4 /* Sources */,
 				7CC046F0197D582100872EC4 /* Frameworks */,
@@ -167,14 +167,14 @@
 			);
 			dependencies = (
 			);
-			name = "Funky Unit Converter";
+			name = Prijevoz;
 			productName = "Funky Unit Converter";
-			productReference = 7CC046F3197D582100872EC4 /* Funky Unit Converter.app */;
+			productReference = 7CC046F3197D582100872EC4 /* Prijevoz.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7CC04713197D582100872EC4 /* Funky Unit ConverterTests */ = {
+		7CC04713197D582100872EC4 /* PrijevozTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7CC04728197D582100872EC4 /* Build configuration list for PBXNativeTarget "Funky Unit ConverterTests" */;
+			buildConfigurationList = 7CC04728197D582100872EC4 /* Build configuration list for PBXNativeTarget "PrijevozTests" */;
 			buildPhases = (
 				7CC04710197D582100872EC4 /* Sources */,
 				7CC04711197D582100872EC4 /* Frameworks */,
@@ -185,9 +185,9 @@
 			dependencies = (
 				7CC0471A197D582100872EC4 /* PBXTargetDependency */,
 			);
-			name = "Funky Unit ConverterTests";
+			name = PrijevozTests;
 			productName = "Funky Unit ConverterTests";
-			productReference = 7CC04714197D582100872EC4 /* Funky Unit ConverterTests.xctest */;
+			productReference = 7CC04714197D582100872EC4 /* PrijevozTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -205,7 +205,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7CC046EE197D582100872EC4 /* Build configuration list for PBXProject "Funky Unit Converter" */;
+			buildConfigurationList = 7CC046EE197D582100872EC4 /* Build configuration list for PBXProject "Prijevoz" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +218,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7CC046F2197D582100872EC4 /* Funky Unit Converter */,
-				7CC04713197D582100872EC4 /* Funky Unit ConverterTests */,
+				7CC046F2197D582100872EC4 /* Prijevoz */,
+				7CC04713197D582100872EC4 /* PrijevozTests */,
 			);
 		};
 /* End PBXProject section */
@@ -269,7 +269,7 @@
 /* Begin PBXTargetDependency section */
 		7CC0471A197D582100872EC4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7CC046F2197D582100872EC4 /* Funky Unit Converter */;
+			target = 7CC046F2197D582100872EC4 /* Prijevoz */;
 			targetProxy = 7CC04719197D582100872EC4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -378,9 +378,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Funky Unit Converter/Funky Unit Converter-Prefix.pch";
-				INFOPLIST_FILE = "Funky Unit Converter/Funky Unit Converter-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Funky Unit Converter/Prijevoz-Prefix.pch";
+				INFOPLIST_FILE = "Funky Unit Converter/Prijevoz-Info.plist";
+				PRODUCT_NAME = Prijevoz;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,9 +391,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Funky Unit Converter/Funky Unit Converter-Prefix.pch";
-				INFOPLIST_FILE = "Funky Unit Converter/Funky Unit Converter-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Funky Unit Converter/Prijevoz-Prefix.pch";
+				INFOPLIST_FILE = "Funky Unit Converter/Prijevoz-Info.plist";
+				PRODUCT_NAME = Prijevoz;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -413,8 +413,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Funky Unit ConverterTests/Funky Unit ConverterTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Funky Unit ConverterTests/PrijevozTests-Info.plist";
+				PRODUCT_NAME = PrijevozTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -431,8 +431,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Funky Unit Converter/Funky Unit Converter-Prefix.pch";
-				INFOPLIST_FILE = "Funky Unit ConverterTests/Funky Unit ConverterTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Funky Unit ConverterTests/PrijevozTests-Info.plist";
+				PRODUCT_NAME = PrijevozTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -441,7 +441,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7CC046EE197D582100872EC4 /* Build configuration list for PBXProject "Funky Unit Converter" */ = {
+		7CC046EE197D582100872EC4 /* Build configuration list for PBXProject "Prijevoz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7CC04723197D582100872EC4 /* Debug */,
@@ -450,21 +450,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7CC04725197D582100872EC4 /* Build configuration list for PBXNativeTarget "Funky Unit Converter" */ = {
+		7CC04725197D582100872EC4 /* Build configuration list for PBXNativeTarget "Prijevoz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7CC04726197D582100872EC4 /* Debug */,
 				7CC04727197D582100872EC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		7CC04728197D582100872EC4 /* Build configuration list for PBXNativeTarget "Funky Unit ConverterTests" */ = {
+		7CC04728197D582100872EC4 /* Build configuration list for PBXNativeTarget "PrijevozTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7CC04729197D582100872EC4 /* Debug */,
 				7CC0472A197D582100872EC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
